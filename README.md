@@ -33,6 +33,10 @@ Q3. What variable(s) are neither targets nor features, and should be removed fro
 
 **Initial Model Results**
 
+![](Resources/Attempt0.png)
+
+![](Resources/Attempt0a.png)
+
 The client requested we answer the following questions:
 
 Q1. How many nuerons, layers,and activation funtions did you select for your neural network model, and why?
