@@ -51,10 +51,10 @@ Q3. What steps did you take to try and increase model performance?
 
 *A3. The steps taken to try and increase model performance are documented below:
 
--Optimization 1: Added a third layer (for a total of 4) with 10 neurons and a relu activation. Accuracy: 72.4%
--Optimization 2: Reduced back to three total layers, changed the neurons to 8,5,1 and changed the output layer activation from linear to sigmoid. Accuracy: 72.4%
--Optimization 3: Maintained the same number of layers and neurons as Optimization 2, however, changed the output layer activation to linear. Accuracy: 46.7%
--Optimization 4: Returned the output layer back to sigmoid, kept three layers and increased the neurons to 12, 6, 1. Accuracy: 72.1%
+- Optimization 1: Added a third layer (for a total of 4) with 10 neurons and a relu activation. Accuracy: 72.4%
+- Optimization 2: Reduced back to three total layers, changed the neurons to 8,5,1 and changed the output layer activation from linear to sigmoid. Accuracy: 72.4%
+- Optimization 3: Maintained the same number of layers and neurons as Optimization 2, however, changed the output layer activation to linear. Accuracy: 46.7%
+- Optimization 4: Returned the output layer back to sigmoid, kept three layers and increased the neurons to 12, 6, 1. Accuracy: 72.1%
 
 **Optimization Results**
 
