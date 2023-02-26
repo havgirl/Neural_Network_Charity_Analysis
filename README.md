@@ -41,15 +41,19 @@ The client requested we answer the following questions:
 
 Q1. How many nuerons, layers,and activation funtions did you select for your neural network model, and why?
 
-A1.
+*A1. In the initial neural network model, I referenced a previous successful example as a starting place and began with three layers. The first layer had 80 neurons with a sigmoid activation.  The second layer had 20 neurons with a relu activation, and the final layer utilized a linear activation.*
 
 Q2. Were you able to achieve the target model performances?
 
-A2.
+*A2. The initial neural network model yielded a 71.6% accuracy.  Although efforts were made to optimize the model, the highest accuracy achieved was 72.4%.*
 
 Q3. What steps did you take to try and increase model performance?
 
-A3.
+*A3. The steps taken to try and increase model performance are documented below:
+-Optimization 1: Added a third layer (for a total of 4) with 10 neurons and a relu activation. Accuracy: 72.4%
+-Optimization 2: Reduced back to three total layers, changed the neurons to 8,5,1 and changed the output layer activation from linear to sigmoid. Accuracy: 72.4%
+-Optimization 3: Maintained the same number of layers and neurons as Optimization 2, however, changed the output layer activation to linear. Accuracy: 46.7%
+-Optimization 4: Returned the output layer back to sigmoid, kept three layers and increased the neurons to 12, 6, 1. Accuracy: 72.1%
 
 **Optimization Results**
 
@@ -78,5 +82,5 @@ A3.
 ![](Resources/Attempt4a.png)
 
 ### Summary
-
+In summary, Optimization effort 1 yielded the highest accuracy at 72.4%.  Future modeling may benefit from utilizing the random forest classifier, as it is less influenced by outliers.
 
